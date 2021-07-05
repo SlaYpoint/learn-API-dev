@@ -1,4 +1,4 @@
-## DevCamper API 
+# DevCamper API 
 
 > Learning Backend & API development
 
@@ -21,3 +21,6 @@ npm start
 ```
 - Version : 1.0.0
 - License : MIT
+
+## Docs
+For further details on usage you can refer to the [documentation](docs.md).
