@@ -63,7 +63,6 @@ URL: {{URL}}/api/v1/auth/forgotpassword
 | Key | Value | Description |
 | --- | ------|-------------|
 | Content-Type | application/json | JSON Type |
-| Authorization | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZTFhMjk3ZWNiMTBiNTU1MGZlMWI1MiIsImlhdCI6MTYyNTQwOTU1OSwiZXhwIjoxNjI4MDAxNTU5fQ.m2qRb9gjApTEWWbFb9Xq79LWrcHBWoaO3V1m5s2pUXo |  |
 
 
 
@@ -129,7 +128,6 @@ URL: {{URL}}/api/v1/auth/login
 | Key | Value | Description |
 | --- | ------|-------------|
 | Content-Type | application/json | JSON Type |
-| Authorization | Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZTFhMjk3ZWNiMTBiNTU1MGZlMWI1MiIsImlhdCI6MTYyNTQwOTU1OSwiZXhwIjoxNjI4MDAxNTU5fQ.m2qRb9gjApTEWWbFb9Xq79LWrcHBWoaO3V1m5s2pUXo |  |
 
 
 
@@ -207,7 +205,7 @@ Reset password using token sent via email
 ```bash
 Method: PUT
 Type: RAW
-URL: {{URL}}/api/v1/auth/resetpassword/cd33ec426132ac922abe97c9d00a62da73c36217
+URL: {{URL}}/api/v1/auth/resetpassword/:resettoken
 ```
 
 
@@ -628,4 +626,4 @@ URL: {{URL}}/api/v1/courses/5d725c84c4ded7bcb480eaa0
 
 ---
 [Back to top](#devcamper-api)
-> Made with &#9829; by [thedevsaddam](https://github.com/thedevsaddam) | Generated at: 2021-07-05 20:39:28 by [docgen](https://github.com/thedevsaddam/docgen)
+> Made with &#9829; by [thedevsaddam](https://github.com/thedevsaddam) | Generated at: 2021-07-05 21:56:51 by [docgen](https://github.com/thedevsaddam/docgen)
